@@ -1,0 +1,91 @@
+.loading.night {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+   
+        /* Replace body with the appropriate selector for your desired element */
+        background: transparent;
+      
+  }
+.loading {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+   
+        /* Replace body with the appropriate selector for your desired element */
+        background: transparent;
+      
+  }
+  
+.loader.night {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+   
+        /* Replace body with the appropriate selector for your desired element */
+        background: transparent;
+     
+      
+  }
+  
+.loader {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+   
+        /* Replace body with the appropriate selector for your desired element */
+        background: var(--body-color);
+      
+  }
+  .loading-box.night{  
+ width: 100%;
+ color: #ffffff;
+  }
+  .loading-box{
+ width: 100%;
+  }
+  .box {
+    width: 200%;
+    height: 120px;
+    margin: 0 8px;
+    border-radius: 50%;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    animation: jump 1s ease-in-out infinite;
+    background-color: #fff;
+    padding: 10px;
+  }
+  .box.night {
+    width: 200%;
+    height: 120px;
+    margin: 0 8px;
+    border-radius: 50%;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    animation: jump 1s ease-in-out infinite;
+    background-color: #4d4d4d;
+    padding: 10px;
+  }
+  
+ 
+  
+  @keyframes jump {
+    0%, 100% {
+      transform: translateY(0);
+    }
+  
+    50% {
+      transform: translateY(-30px);
+    }
+  }
+  

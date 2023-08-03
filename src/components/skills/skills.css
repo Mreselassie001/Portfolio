@@ -1,0 +1,54 @@
+.skills__data {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 200px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.5rem;
+  grid-template-columns: 2fr;
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 3rem;
+  border-radius: 1.25rem;
+  width: 100%;
+}
+.skills__content {
+  display: flex;
+  flex-wrap: wrap;
+  
+  gap: 20px;
+}
+
+.frontend-icons{
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.skills__data div{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* .skills .bx-badge-check {
+  font-size: 1rem;
+  color: var(--title-color);
+} */
+.skills__name {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  line-height: 18px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.skills__level { 
+   display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--tiny-font-size);
+}
