@@ -99,6 +99,7 @@
 
   .show-menu {
     bottom: 10px;
+    height: auto;
   }
 
   .nav__list {
@@ -117,13 +118,8 @@
     font-size: 1.5rem;
     cursor: pointer;
     color: var(--title-color);
-    border-radius: 50px;
-    background-color: #555;
-    padding-left: 3px;
-    padding-right: 5px;
-    width: 30px;
-    height: 33x;
-    padding-top: px;
+    
+  
   }
   .nav__close:hover {
     color: var(--title-color-dark);
