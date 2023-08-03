@@ -13,12 +13,13 @@ import ScrollUp from "./components/scrollup/ScrollUp";
 import Mode from "./components/mode/Mode";
 import { ThemeProvider } from "./components/theme/ThemeContext";
 
+
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     // Simulate a delay for the preloader (e.g., 3 seconds)
-    const delay = 3000;
+    const delay = 1000;
 
     // Hide the preloader after the delay
     const timer = setTimeout(() => {

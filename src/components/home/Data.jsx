@@ -60,11 +60,13 @@ const Data = () => {
         </svg>
       </h1>
 
-      <h3 className={`home__subtitle ${theme}`}>Visual Designer</h3>
+      <h3 className={`home__subtitle ${theme}`}>Front-end web developer  <br /> UX/UI Designer</h3>
+      
+
+      
 
       <p className={`home__description ${theme}`}>
-        I am a dedicated, passionate creative designer actively learning and
-        ready to contribute my skills to impactful projects.
+        I am a passionate and versatile creative designer with a flair for digital art and a keen eye for aesthetics. Throughout my journey, I've honed my skills in various design disciplines, delivering visually stunning and impactful projects.
       </p>
 
       <a href="#contact" className={`button button--flex ${theme}`}>
