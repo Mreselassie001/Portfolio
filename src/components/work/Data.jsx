@@ -28,7 +28,7 @@ export const projectsData = [
     image: Work3,
     title: "Weather App",
     category: "Web",
-    link: "https://weather-jil1pxh64-mreselassie1.vercel.app/",
+    link: "https://weather-6si6y2hnj-mreselassie1.vercel.app/",
     type: "JavaScript",
   },
   // {
