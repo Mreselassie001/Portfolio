@@ -1,7 +1,10 @@
+.skill__container{
+  align-items: center;
+}
 .skills__data {
   display: flex;
   flex-grow: 1;
-  flex-basis: 70px;
+  flex-basis: 200px;
   justify-content: center;
   align-items: center;
   column-gap: 1.5rem;
@@ -15,23 +18,20 @@
 .skills__content {
   display: flex;
   flex-wrap: wrap;
-  
-  gap: 20px;
+  gap: 15px;
+
+
 }
 
 .frontend-icons{
-  width: 80px;
+  width: 100%;
   height: auto;
   padding-bottom: 10px;
   display: grid;
   justify-content: center;
   align-items: center;
 }
-.skills__data div{
-  display: grid;
-  justify-content: center;
-  align-items: center;
-}
+
 
 
 /* .skills .bx-badge-check {
@@ -51,4 +51,14 @@
   justify-content: center;
   align-items: center;
   font-size: var(--tiny-font-size);
+}
+
+/* for small devices */
+@media screen and (max-width: 450px) {
+  .skills__data {
+  
+    flex-basis: 150px;
+
+  }
+  
 }

@@ -13,7 +13,7 @@ const Services = () => {
   return (
     <section className={`service section ${theme}`} id="services">
       <h2 className={`section__title ${theme}`}>Services</h2>
-      <span className={`section__subtitle ${theme}`}>What i offer</span>
+      <span className={`section__subtitle ${theme}`}>What I offer</span>
 
       <div className="services__container container grid">
         <div className="services__content">
