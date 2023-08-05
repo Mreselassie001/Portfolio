@@ -18,9 +18,14 @@
 .skills__content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 15px;
 
 
+}
+.skill__view{
+  width: 60px;
 }
 
 .frontend-icons{
