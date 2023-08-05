@@ -24,9 +24,7 @@
 
 
 }
-.skill__view{
-  width: 60px;
-}
+
 
 .frontend-icons{
   width: 100%;
@@ -62,8 +60,11 @@
 @media screen and (max-width: 450px) {
   .skills__data {
   
-    flex-basis: 150px;
+    flex-basis: 50px;
 
+  }
+  .skill__view{
+    width: 30px;
   }
   
 }
