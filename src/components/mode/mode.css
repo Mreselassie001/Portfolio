@@ -11,6 +11,7 @@
   bottom: 87%;
   z-index: var(--z-tooltip);
   opacity: 0.9;
+  scale: 0.5;
 }
 
 .switch-label {
