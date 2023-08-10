@@ -85,12 +85,8 @@ textarea {
 }
 
 body {
-  background-color:#333;;
+  background-color: var(--body-color);
   color: var(--text-color);
-}
-body.night {
-  background-color:#333;
-  
 }
 
 h1,
