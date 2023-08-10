@@ -1,7 +1,7 @@
 .toggle-switch {
   position: fixed;
   width: 100px;
-  height: 50px;
+  height: 10px;
   --light: #d8dbe0;
   --dark: #28292c;
   --link: rgb(27, 129, 112);
@@ -11,7 +11,7 @@
   bottom: 87%;
   z-index: var(--z-tooltip);
   opacity: 0.9;
-  scale: 0.5;
+  
 }
 
 .switch-label {
@@ -105,7 +105,7 @@
 /* For small devices */
 @media screen and (max-width: 380px) {
   .toggle-switch {
-    scale: 0.5;
+    scale: 0.2;
     bottom: 93%;
   }
 }
