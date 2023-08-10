@@ -1,7 +1,7 @@
 .toggle-switch {
   position: fixed;
   width: 100px;
-  height: 10px;
+  /* height: 100%; */
   --light: #d8dbe0;
   --dark: #28292c;
   --link: rgb(27, 129, 112);
@@ -70,6 +70,7 @@
   .toggle-switch {
     left: 89%;
     padding: 0.25rem 0.4rem;
+    bottom: 77%;
   }
 
   .switch-label {
@@ -92,13 +93,13 @@
   .toggle-switch {
     left: -1rem;
     /* scale: 0.3; */
-    bottom: 93%;
+    bottom: 83%;
   }
 }
 @media screen and (max-width: 576px) {
   .toggle-switch {
     /* scale: 0.5; */
-    bottom: 93%;
+    bottom: 83%;
   }
 }
 
@@ -106,9 +107,7 @@
 @media screen and (max-width: 380px) {
   .toggle-switch {
     /* scale: 0.5; */
-    bottom: 93%;
+    bottom: 83%;
   }
-  .switch-label {
-    
-  }
+ 
 }
