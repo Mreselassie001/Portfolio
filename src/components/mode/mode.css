@@ -11,7 +11,7 @@
   bottom: 87%;
   z-index: var(--z-tooltip);
   opacity: 0.9;
-  
+  scale: .5;
 }
 
 .switch-label {
@@ -105,7 +105,10 @@
 /* For small devices */
 @media screen and (max-width: 380px) {
   .toggle-switch {
-    scale: 0.2;
+    scale: 0.5;
     bottom: 93%;
+  }
+  .switch-label {
+    
   }
 }
