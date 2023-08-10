@@ -91,13 +91,13 @@
 @media screen and (max-width: 768px) {
   .toggle-switch {
     left: -1rem;
-    scale: 0.5;
+    /* scale: 0.3; */
     bottom: 93%;
   }
 }
 @media screen and (max-width: 576px) {
   .toggle-switch {
-    scale: 0.5;
+    /* scale: 0.5; */
     bottom: 93%;
   }
 }
@@ -105,7 +105,7 @@
 /* For small devices */
 @media screen and (max-width: 380px) {
   .toggle-switch {
-    scale: 0.5;
+    /* scale: 0.5; */
     bottom: 93%;
   }
   .switch-label {
