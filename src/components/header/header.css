@@ -56,8 +56,8 @@
   /* transform: scale(1.2); */
   width: 100%;
   /* transition: .1s; */
-  bottom-border:solid 1px var(--text-color);
-/*   background-color: var(--text-color); */
+/*   bottom-border:solid 1px var(--text-color); */
+  background-color: var(--text-color);
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.05);
   color: var(--body-color);
   border-radius: 30px;
