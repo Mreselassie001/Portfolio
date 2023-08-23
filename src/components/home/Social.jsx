@@ -17,21 +17,20 @@ const Social = () => {
       </a>
 
       <a
-        href="mailto:deb@empirerecords.biz?subject=Blog Feedback"
-        className={`home__social-icon ${theme}`}
-        target={"_blank"}
-        rel="noreferrer"
-      >
-        <i className="uil uil-at"></i>
-      </a>
-
-      <a
         href="https://www.linkedin.com/in/MrSelassie"
         className={`home__social-icon ${theme}`}
         target={"_blank"}
         rel="noreferrer"
       >
         <i className="uil uil-linkedin-alt"></i>
+      </a>
+      <a
+        href="https://github.com/Mreselassie001"
+        className={`home__social-icon ${theme}`}
+        target={"_blank"}
+        rel="noreferrer"
+      >
+        <i className="uil uil-github-alt"></i>
       </a>
     </div>
   );

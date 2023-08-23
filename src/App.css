@@ -88,6 +88,10 @@ body {
   background-color: var(--body-color);
   color: var(--text-color);
 }
+body.night {
+  background-color: #333;
+  color: var(--text-color);
+}
 
 h1,
 h2,
@@ -267,14 +271,14 @@ section.night {
 
 .nav__link.night:hover {
   color: #f5f5f5;
-  border-radius: 30px;
-  background-color: #919191;
+  /* border-radius: 30px;
+  background-color: #919191; */
 }
 
 .active-link.night {
   color: #ffffff;
-  border-radius: 30px;
-  background-color: #898989;
+  /* border-radius: 30px;
+  background-color: #898989; */
 }
 
 .nav__toggle.night {

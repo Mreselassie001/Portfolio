@@ -1,5 +1,5 @@
 .toggle-switch {
-  position: fixed;
+  position: sticky;
   width: 100px;
   /* height: 100%; */
   --light: #d8dbe0;
