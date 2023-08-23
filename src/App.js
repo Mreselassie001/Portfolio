@@ -33,9 +33,9 @@ const App = () => {
   return (
     <ThemeProvider>
       {isLoading ? (
-        <PreLoader ><Mode /></PreLoader>
-      ) : (
-        <>
+        <PreLoader />
+        ) : (
+          <>
           <Header />
           <main className="main">
             <Home />
