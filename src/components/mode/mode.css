@@ -108,7 +108,7 @@
 @media screen and (max-width: 380px) {
   .toggle-switch {
     /* scale: 0.5; */
-    bottom: 94%;
+    bottom: 10%;
   }
  
 }
