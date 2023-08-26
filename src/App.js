@@ -13,7 +13,6 @@ import ScrollUp from "./components/scrollup/ScrollUp";
 import Mode from "./components/mode/Mode";
 import { ThemeProvider } from "./components/theme/ThemeContext";
 
-
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -34,8 +33,8 @@ const App = () => {
     <ThemeProvider>
       {isLoading ? (
         <PreLoader />
-        ) : (
-          <>
+      ) : (
+        <>
           <Header />
           <main className="main">
             <Home />
@@ -44,8 +43,8 @@ const App = () => {
             <Services />
             <Work />
             <Contact />
+            <Mode />
           </main>
-          <Mode />
           <Footer />
           <ScrollUp />
         </>
