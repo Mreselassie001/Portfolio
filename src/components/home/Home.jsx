@@ -27,7 +27,8 @@ const Home = () => {
         <div className={`home__content grid ${theme}`}>
           <Social />
 
-          <div className={`home__img ${theme}`}></div>
+          <div className={`home__img ${theme}`} aria-label="Elikem Normegbor-Selassie - Web Developer"></div>
+
 
           <Data />
         </div>

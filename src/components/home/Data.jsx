@@ -7,7 +7,10 @@ const Data = () => {
 
   return (
     <div className={`home__data ${theme}`}>
-      <h1 className={`home__title ${theme}`}>
+      <h1
+        className={`home__title ${theme}`}
+        aria-label="Elikem Normegbor-Selassie - Front-end Web Developer and UX/UI Designer "
+      >
         Elikem Normegbor-Selassie
         <svg
           width="36"
@@ -60,13 +63,18 @@ const Data = () => {
         </svg>
       </h1>
 
-      <h3 className={`home__subtitle ${theme}`}>Front-end web developer  <br /> UX/UI Designer</h3>
-      
-
-      
+      <h3
+        className={`home__subtitle ${theme}`}
+        aria-label="Front-end Web Developer and UX/UI Designer"
+      >
+        Front-end web developer <br /> UX/UI Designer
+      </h3>
 
       <p className={`home__description ${theme}`}>
-        I am a passionate and versatile creative designer with a flair for digital art and a keen eye for aesthetics. Throughout my journey, I've honed my skills in various design disciplines, delivering visually stunning and impactful projects.
+        I am a passionate and versatile creative designer with a flair for
+        digital art and a keen eye for aesthetics. Throughout my journey, I've
+        honed my skills in various design disciplines, delivering visually
+        stunning and impactful projects.
       </p>
 
       <a href="#contact" className={`button button--flex ${theme}`}>
