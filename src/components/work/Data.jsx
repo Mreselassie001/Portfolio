@@ -61,13 +61,13 @@ export const projectsData = [
     type: "React",
     link:"https://razorpro9981.github.io/something/",
   },
-  {
-    id: 8,
-    image: Work8,
-    title: "",
-    category: "Web",
-    type: "Coming Soon...",
-  },
+  // {
+  //   id: 8,
+  //   image: Work8,
+  //   title: "",
+  //   category: "Web",
+  //   type: "Coming Soon...",
+  // },
 ];
 
 export const projectsNav = [

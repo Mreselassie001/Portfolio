@@ -395,7 +395,7 @@ section.night {
 /* ====================== scroll night ===================*/
 
 .scrollup__icon.night {
-  color: #0f0f0f;
+  color: #000000;
 }
 .scrollup__icon.night:hover {
   color: #fff;
@@ -403,7 +403,7 @@ section.night {
 
 .scrollup.night {
   color: #0f0f0f;
-  background-color: #919191;
+  background-color: #828282;
 }
 .scrollup.night:hover {
   color: #fff;
