@@ -12,7 +12,6 @@
   transition: all 0.4s ease; /* Apply transition to all properties */
 }
 
-
 /* Rest of your styles remain the same */
 
 .switch-label {
@@ -108,7 +107,6 @@
 @media screen and (max-width: 380px) {
   .toggle-switch {
     /* scale: 0.5; */
-    bottom: 20%;
+    bottom: 100px;
   }
- 
 }
