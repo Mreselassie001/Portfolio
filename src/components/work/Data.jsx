@@ -19,9 +19,10 @@ export const projectsData = [
   {
     id: 2,
     image: Work2,
-    title: "",
-    category: "app",
-    type: "Coming Soon...",
+    title: "GCTUProg",
+    category: "Web",
+    link: "https://gtuc-prog.vercel.app/login",
+    type: "React",
   },
   {
     id: 3,
