@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { ThemeContext } from "../theme/ThemeContext";
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/CV.pdf";
+import CV from "../../assets/Elikem Normegbor-Selassie_CV.pdf";
 import Info from "./Info";
 
 const About = () => {

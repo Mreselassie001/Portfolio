@@ -14,7 +14,6 @@
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 90%);
   --container-color: #ffffff;
-  
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -75,7 +74,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 body,
 button,
 input,
@@ -87,7 +85,7 @@ textarea {
 body {
   background-color: var(--body-color);
   color: var(--text-color);
- 
+  /* overscroll-behavior: auto; */
 }
 
 body.night {
@@ -137,7 +135,6 @@ img {
   padding: 6rem 0 2rem;
   animation: fadeIn 1s ease; /* Adjust the duration (1s) to control the speed of fade-in */
 }
-
 
 .section__title {
   font-size: var(--h1-font-size);
